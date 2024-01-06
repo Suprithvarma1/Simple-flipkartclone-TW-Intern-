@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.outer-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn{
+    border: none;
+    background-color: #FB641B;
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    height: 50px;
+    width: 85%;
+    padding: 9px;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: #2874F0;
+    cursor: pointer;
+}
+.inner{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 500px;
+}
+
+
+.left{
+    background-color: #2874F0;
+    color: white;
+    font-family: sans-serif;
+    width: 45%;
+}
+
+.right{
+    font-family: sans-serif;
+    width: 55%;
+}
+nav{
+    background-color: white;
+    height: 100px;
+}
+.navtab:hover{
+    
+    border-bottom: 5px solid #2874F0; 
+    border-radius: 4px;
+}
+.newtxt{
+    margin-top: 35px;font-weight: bold;font-size: 25px;padding-top:40px;width:75%;margin: auto;
+}
+
+.sgup{
+    margin-top: 20px;font-size: 18px;padding-top: 27px;width: 75%;margin: auto;
+}
+
+.mobile{
+    width: 70%; margin-top: 10px;height: 25px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray
+}
+
+.mobile:focus {
+    outline:0;
+    border-width: 0 0 2px;
+    border-color: black
+  }
+
+  .name{
+    width: 70%; margin-top: 10px;height: 25px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray
+}
+
+.name:focus {
+    outline:0;
+    border-width: 0 0 2px;
+    border-color: black
+  }
+
+  
+  .password{
+    width: 70%; margin-top: 10px;height: 25px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray
+}
+
+.password:focus {
+    outline:0;
+    border-width: 0 0 2px;
+    border-color: black
+  }
+
+.textm{
+   font-size: 12px;width: 80%;
+    margin: auto;padding-top: 10px;
+    color: grey;
+}
+
+.continue:hover{
+    cursor: pointer;
+}
+.form{
+    display: flex;justify-content: center;margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+   
+ 
+}
+#container{
+    margin: 15px;
+    padding: 25px;
+    
+}

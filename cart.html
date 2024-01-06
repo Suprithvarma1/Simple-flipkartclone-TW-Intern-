@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <nav>
+
+
+            <div class="nav1">
+                <div class="logo"><span id="logo-sz"><a href="./index.html" style="color: white;">Flipkart</a></span>
+                    <span id="exp"><span>Explore</span> <span style="color: #FFC200;">Plus</span>
+                    </span>
+                    </span>
+                </div>
+
+                <div class="search-bar">
+                    <span><svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Search Icon</title>
+                            <path
+                                d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z"
+                                stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                            <path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg></span>
+                    <span>
+                        <input type="text" placeholder="Search for Products, Brands and More" id="text">
+                    </span>
+                </div>
+
+                <div class="button">
+                    <button onclick=login()>Login</button>
+                </div>
+
+
+
+
+                <span>
+                    <a href="./index.html">
+
+                        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk_goto_home_logo_small_5b9cdd.svg"
+                            alt="flipkart" />
+                    </a>
+                </span>
+                <span id="sell"></span>
+            </div>
+            </div>
+
+        </nav>
+
+
+        <section class="tabs">
+
+            <div class="heads">
+
+                <span class="fp"><a style="text-decoration: none; color:black;" href="./index.html">Flipkart</a></span>
+
+
+
+                <span class="gc">
+                    <a style="text-decoration: none; color:black;" href="./grocery.html">
+                        Grocerry
+                    </a></span>
+            </div>
+            <div class="cart-img">
+                <img src="./images/cart.jpg" height="200px" width="300px" alt="cartpic">
+            </div>
+
+
+            <div class="context">
+
+                <h4 style="font-size: larger;">Missing Cart Items?</h4>
+                <br>
+                <p style="font-size:medium">Login to see the items you added previous</p>
+                <br>
+                <div class="button ">
+                    <button style="background-color: orangered; color:white" onclick=login()>Login</button>
+                </div>
+
+            </div>
+
+        </section>
+        <script>
+            function login() {
+                window.open('signin.html');
+            }
+        </script>
+    </body>
+
+    </html>
